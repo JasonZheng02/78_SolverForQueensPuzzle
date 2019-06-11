@@ -58,10 +58,18 @@ public class SolverForQueensPuzzle {
      */
     private void recordSolutionsStarted() {
 
+        //Base case
+        //Take a snapshot of a solution and
+        //Add to collection of solutions
         if (inProgress.accept()){
             BoardForQueensPuzzle snapshot = new BoardForQueensPuzzle(inProgress);
             solutions.add(snapshot);
         }
+        //Recursive Case
+        //Populate once on lastRankFilled starting from smallest file to largest file
+        //If the last-added queen introduced a conflict
+        //Try the next file
+        //Else move on
         else {
             for (int file = 0; file < inProgress.ranks(); file++){
                 inProgress.populate(file);
@@ -73,6 +81,7 @@ public class SolverForQueensPuzzle {
                 }
             }
         }
+        //Start to go back to check other boards
         inProgress.depopulate();
         nBoardsConsidered++;
     }
