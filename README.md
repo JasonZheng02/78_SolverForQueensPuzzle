@@ -1,6 +1,6 @@
 # represent a solver for the queens problem
 
-## Jason's remarks
+## Jason Zheng's remarks
 
 ### citations / worked with / received help from
 Common Sources
