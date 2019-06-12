@@ -3,8 +3,8 @@
 ## Jason Zheng's remarks
 
 ### citations / worked with / received help from
-Common Sources 
-N-Queens Sketchpad from Haley Zeng was really nice. Saved the time dealing with a messy drawing.
+* Common Sources 
+* N-Queens Sketchpad from Haley Zeng was really nice. Saved the time dealing with a messy drawing.
 
 ## Holmes's remarks
 
