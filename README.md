@@ -3,7 +3,7 @@
 ## Jason Zheng's remarks
 
 ### citations / worked with / received help from
-* Common Sources 
+* Common Sources. Unfortunately even though I saw the piazza post about one base case and agreed with the anonymous student, I did not see the follow up answer about using two base cases to keep the work consistent with the class.
 * N-Queens Sketchpad from Haley Zeng was really nice. Saved the time dealing with a messy drawing.
 
 ## Holmes's remarks
